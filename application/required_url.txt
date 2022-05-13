@@ -1,0 +1,8 @@
+OPEN_API_URL:  http://localhost:5000/swagger/
+
+POSTMAN:
+
+ALL_TODOS:     http://localhost:5000/todolist method=GET
+SPICIFIC_TODO: http://localhost:5000/todolist/<int: id> method= GET
+UPDATE_TODO:   http://localhost:5000/todolist/<int: id> method= POST
+DELETE_TODO:   http://localhost:5000/todolist/<int: id> method= DELETE
